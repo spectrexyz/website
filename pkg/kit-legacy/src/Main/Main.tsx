@@ -1,7 +1,6 @@
 import type { ReactNode } from "react"
 
 import { Global } from "@emotion/react"
-import { Fragment } from "react"
 import { useBaseUrl } from "../BaseUrl"
 import { fonts, theme } from "../styles"
 
@@ -25,7 +24,7 @@ const UNICODE_RANGE_LATIN1 =
 export function Main({ children }: MainProps) {
   const assets = useBaseUrl("Main")
   return (
-    <Fragment>
+    <>
       <Global
         styles={[
           {
@@ -101,6 +100,6 @@ export function Main({ children }: MainProps) {
         }}
       />
       {children}
-    </Fragment>
+    </>
   )
 }
