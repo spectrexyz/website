@@ -1,1 +1,0 @@
-export { FractionsCard } from "./FractionsCard"

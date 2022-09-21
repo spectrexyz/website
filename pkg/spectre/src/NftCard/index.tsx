@@ -1,1 +1,0 @@
-export { NftCard } from "./NftCard"
