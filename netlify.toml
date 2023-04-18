@@ -1,4 +1,4 @@
 [build.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "18"
   PYTHON_VERSION = "3.8"
   NPM_FLAGS = "--version"
