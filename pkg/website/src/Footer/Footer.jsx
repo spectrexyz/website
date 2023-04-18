@@ -50,7 +50,6 @@ export function Footer() {
         padding: 0 ${layout.padding}px;
       `}
     >
-      <Subscribe />
       <div
         css={css`
           display: flex;
