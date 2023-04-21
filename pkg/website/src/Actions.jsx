@@ -3,11 +3,9 @@ import { css } from "@emotion/react"
 import { headerLinks } from "./content.jsx"
 
 import discord from "./Header/discord.svg"
-import envelope from "./Header/envelope.svg"
 import twitter from "./Header/twitter.svg"
 
 const ACTIONS = [
-  [headerLinks.subscribe.label, envelope, headerLinks.subscribe.url],
   [headerLinks.discord.label, discord, headerLinks.discord.url],
   [headerLinks.twitter.label, twitter, headerLinks.twitter.url],
 ]
