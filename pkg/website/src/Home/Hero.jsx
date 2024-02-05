@@ -74,11 +74,24 @@ export const Hero = React.memo(function Hero() {
         {tagline}
       </h2>
 
-      <Button
-        mode="filled-alt"
-        label={readLitepaper}
-        onClick={() => setPath("/litepaper")}
-      />
+      <div
+        css={css`
+          display: flex;
+          gap: 2gu;
+        `}
+      >
+        <a href="https://github.com/spectrexyz" target="_blank" rel="noopener noreferrer">
+          <Button
+            mode="filled"
+            label="Source Code"
+          />
+        </a>
+        <Button
+          mode="filled-alt"
+          label="Litepaper"
+          onClick={() => setPath("/litepaper")}
+        />
+      </div>
 
       {layout.name === "small" && (
         <div

@@ -65,7 +65,7 @@ export const partnership = {
 
 export const nftCardsSection = {
   title: "Explore our friends NFTs",
-  description: `Our pre-launch gallery from friends of Spectre`,
+  description: `Our gallery from friends of Spectre`,
   nfts: shuffle(nfts),
 }
 

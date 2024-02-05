@@ -3,7 +3,6 @@ import { gu, theme } from "kit-legacy"
 import React, { useMemo } from "react"
 import { footerLinks } from "../content.jsx"
 import { useLayout } from "../styles.js"
-import { Subscribe } from "../Subscribe.jsx"
 
 import logo from "./footer-logo.png"
 

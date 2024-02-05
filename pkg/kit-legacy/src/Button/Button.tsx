@@ -104,7 +104,7 @@ export function Button({ mode = "outline", label, ...props }: ButtonProps) {
         />
         <Moire
           height={buttonBounds.height}
-          linesColor={theme.secondary}
+          linesColor={baseColor}
           scale={0.8}
           width={buttonBounds.width}
         />
